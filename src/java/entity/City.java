@@ -24,6 +24,7 @@ import javax.persistence.Table;
     @NamedQuery(name = "City.findById", query = "SELECT c FROM City c WHERE c.id = :id"),
     @NamedQuery(name = "City.findByName", query = "SELECT c FROM City c WHERE c.name = :name"),
     @NamedQuery(name = "City.findByDistrict", query = "SELECT c FROM City c WHERE c.district = :district"),
+    @NamedQuery(name = "City.findByCountryCode", query = "SELECT c FROM City c WHERE c.countryCode = :countryCode"),
     @NamedQuery(name = "City.findByPopulation", query = "SELECT c FROM City c WHERE c.population = :population")})
 public class City implements Serializable {
     private static final long serialVersionUID = 1L;

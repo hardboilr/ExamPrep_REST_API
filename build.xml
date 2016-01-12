@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="ExamPrep_REST_API" default="default" basedir=".">
-    <description>Builds, tests, and runs the project ExamPrep_REST_API.</description>
+<project name="SP4_ExamPrep_REST_API" default="default" basedir=".">
+    <description>Builds, tests, and runs the project SP4_ExamPrep_REST_API.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
