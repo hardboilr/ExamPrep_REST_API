@@ -25,16 +25,17 @@ WorldApp.controller('WorldController', ['WorldFactory', function (WorldFactory) 
                 console.log("something went wrong");
             });
         };
-        
-    self.greaterThan = function(population) {
-        return function(item) {                          
-            if ( item['Bedrooms'] > bedrooms) {                
-                return true;
-            } else {                
-                return false;
-            }
-        }
-    };
+
+        //not implemented
+        self.greaterThan = function (population) {
+            return function (item) {
+                if (item['Bedrooms'] > bedrooms) {
+                    return true;
+                } else {
+                    return false;
+                }
+            };
+        };
     }]);
 
 WorldApp.factory('WorldFactory', ['$http', function ($http) {
