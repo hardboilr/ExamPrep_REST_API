@@ -2,6 +2,8 @@ var WorldApp = angular.module('WorldApp', ['ngRoute']);
 
 WorldApp.controller('WorldController', ['WorldFactory', function (WorldFactory) {
         var self = this;
+        
+        console.log("loading");
 
         self.title = "World Info App";
 
